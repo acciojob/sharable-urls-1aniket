@@ -5,7 +5,7 @@ document.getElementById("button").addEventListener("click", function(event){
 	let name = document.getElementById("name").value;
 	let year =document.getElementById("year").value;
 
-	let display= document.getElementById("display");
+	let display= document.getElementById("url");
 	let ans="https://localhost:8080/";
 
 	if(name || year)
